@@ -3,6 +3,7 @@ Install Maven
 Step1) Login as a root user and change the directory to /opt/
 
 sudo su -
+
 cd /opt/
 yum install wget unzip -y
 
