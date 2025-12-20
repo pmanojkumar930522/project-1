@@ -5,11 +5,13 @@ Step1) Login as a root user and change the directory to /opt/
 sudo su -
 
 cd /opt/
+
 yum install wget unzip -y
 
 Step2) Download the Maven Software
 
 wget https://dlcdn.apache.org/maven/maven-3/3.9.5/binaries/apache-maven-3.9.5-bin.zip
+
 unzip apache-maven-3.9.5-bin.zip
 
 Step3) Set the class path/Environmental Variable
@@ -28,7 +30,9 @@ source ~/.bash_profile
 For All Users
 ---------------------- 
 vi /etc/profile
+
 export M2_HOME=/apache-maven-3.9.5
+
 export PATH=$PATH:$M2_HOME/bin
 
 source /etc/profile
