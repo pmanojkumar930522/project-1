@@ -42,12 +42,17 @@ Step4) Check the Maven version
 mvn -version
 
 
-By default maven performs:
+**By default maven performs:**
 
 validate
+
 compile
+
 test
+
 package
+
 install
+
 deploy
 
